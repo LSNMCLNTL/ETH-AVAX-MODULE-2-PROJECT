@@ -10,7 +10,7 @@ After this, the project will be running on your localhost.
 Typically at http://localhost:3000/
 6. Create a hardhat network in the MetaMask Netwok: http://127.0.0.1:8545/, 31337, ETH
 7. Copy one of the private keys that can be found in the second terminal (inside npx hardhat node), then click "Import Account" in the MetaMask and paste the private key.
-
+8. You can now experiment and test it.
 ## Project Description
 This project illustrates the development of a straightforward ATM utilizing React and Ethereum blockchain technology. It allows users to connect their MetaMask wallets, check their account balance, deposit and withdraw funds based on the inputted value and multiply and divided the value by 2.
 
