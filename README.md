@@ -1,14 +1,15 @@
 # ETH-AVAX-MODULE-2-PROJECT
 
 ## Starter Next/Hardhat Project
-After cloning the github, you will want to do the following to get the code running on your computer.
-1. Inside the project directory, in the terminal type: npm i
+1. In the terminal type: npm i
 2. Open two additional terminals in your VS code
 3. In the second terminal type: npx hardhat node
 4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
 5. Back in the first terminal, type npm run dev to launch the front-end.
 After this, the project will be running on your localhost. 
 Typically at http://localhost:3000/
+6.Create a hardhat network in the MetaMask Netwok: http://127.0.0.1:8545/, 31337, ETH
+7. Copy one of the private keys that can be found in the second terminal (inside npx hardhat node), then click "Import Account" in the MetaMask and paste the private key.
 
 ## Project Description
 This project illustrates the development of a straightforward ATM utilizing React and Ethereum blockchain technology. It allows users to connect their MetaMask wallets, check their account balance, deposit and withdraw funds based on the inputted value and multiply and divided the value by 2.
